@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  {% for object in search %}
+    <tr class='success'>
+        <td>{{ object.name }}</td>
+        <br>
+        <td>{{ object.adress }}</td>
+        <br>
+        rating:
+        <td>{{ object.rating }}</td>
+        <br>
+    </tr>
+{% endfor %}
+</body>
+</html>
